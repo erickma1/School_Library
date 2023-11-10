@@ -42,10 +42,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Created a Nameable Class that Implement a method called correct_name that will raise a NotImplementedError.]**
-- **[Turn the Person Class to Nameable]**
-- **[Prepare CapitalizeDecorator and TrimmerDecorator]**
-- **[Prepare Base Decorator]**
+- **[Created a Classroom Class]**
+- **[Created the has-many/belongs-to relationship between Classroom and Student]**
+- **[Created Book & Rental Classes]**
+- **[Created the many-to-many (also has-many-through) relationship between Person and Book using the intermediate class Rental]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
