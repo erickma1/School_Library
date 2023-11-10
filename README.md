@@ -42,9 +42,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Created Persorn Class]**
-- **[Created student Class and inherits from Person class]**
-- **[Created teacher Class and inherits from Person class]**
+- **[Created a Nameable Class that Implement a method called correct_name that will raise a NotImplementedError.]**
+- **[Turn the Person Class to Nameable]**
+- **[Prepare CapitalizeDecorator and TrimmerDecorator]**
+- **[Prepare Base Decorator]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
