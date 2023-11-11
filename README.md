@@ -7,8 +7,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [Live Demo](#Live-demo)
-- [💻 Getting Started](#getting-started)
+   - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
@@ -54,14 +53,6 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
-
-### Live demo <a name="Live-demo"></a>
-
-- **[Coming soon]**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 
