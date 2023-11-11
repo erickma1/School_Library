@@ -7,8 +7,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [Live Demo](#Live-demo)
-- [💻 Getting Started](#getting-started)
+   - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
@@ -46,19 +45,14 @@
 - **[Created the has-many/belongs-to relationship between Classroom and Student]**
 - **[Created Book & Rental Classes]**
 - **[Created the many-to-many (also has-many-through) relationship between Person and Book using the intermediate class Rental]**
+- **[Add a basic-UI ]**
+- **[Create a app.rb file that will serve as console app entry-point]**
+- **[Create Main.rb file which act as an entry point for the app]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
-
-### Live demo <a name="Live-demo"></a>
-
-- **[Coming soon]**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 
