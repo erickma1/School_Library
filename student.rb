@@ -16,4 +16,7 @@ class Student < Person
     '¯\\(ツ)/¯'
   end
 
+  def print
+    puts "[Teacher] Name: #{name}, ID: #{id}, Age: #{age}"
+  end
 end
