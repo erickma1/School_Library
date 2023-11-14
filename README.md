@@ -92,10 +92,12 @@ git https://github.com/erickma1/School_Library.git
 👤 **Adeshina Adenuga**
 
 - GitHub: [@Nuga0909](https://github.com/Nuga0909)
+- twitter: [@nuga09099](https://twitter.com/nuga09099)
 
 👤 **Khuraijam Henary Singh**
 
 - GitHub: [@HenaryKhuraijam](https://github.com/HenaryKhuraijam)
+- twitter: [@HenaryKhuraijam](https://twitter.com/HenaryKhuraijam)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
