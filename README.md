@@ -85,9 +85,17 @@ git https://github.com/erickma1/School_Library.git
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Eric**
+👤 **Eric Mawudeku**
 
 - GitHub: [@erickma1](https://github.com/erickma1)
+
+👤 **Adeshina Adenuga**
+
+- GitHub: [@Nuga0909](https://github.com/Nuga0909)
+
+👤 **Khuraijam Henary Singh**
+
+- GitHub: [@HenaryKhuraijam](https://github.com/HenaryKhuraijam)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
