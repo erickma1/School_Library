@@ -13,7 +13,6 @@
   - [Install](#install)
   - [Usage](#usage)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -49,6 +48,7 @@
 - **[Create a app.rb file that will serve as console app entry-point]**
 - **[Create Main.rb file which act as an entry point for the app]**
 - **[Preserve Data]**
+- **[Unit testing]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -99,14 +99,6 @@ git https://github.com/erickma1/School_Library.git
 
 - GitHub: [@HenaryKhuraijam](https://github.com/HenaryKhuraijam)
 - twitter: [@HenaryKhuraijam](https://twitter.com/HenaryKhuraijam)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
- 
- [] Unit testing
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
