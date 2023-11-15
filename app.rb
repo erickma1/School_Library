@@ -3,6 +3,7 @@ require_relative 'student'
 require_relative 'teacher'
 require_relative 'rental'
 require_relative 'person'
+require 'json'
 
 class InputHandler
   def self.request_person_type
@@ -65,10 +66,10 @@ end
 class App
   attr_accessor :books, :persons, :rentals
 
-  def initialize
-    @books = []
-    @persons = []
-    @rentals = []
+  def initialize(books_data, person_data, rental_data)
+    @books = books_data
+    @persons = person_data
+    @rentals = rental_data
   end
 
   def list_all_books
@@ -138,4 +139,6 @@ class App
     puts "Rental added successfully.\n"
     $stdout.flush
   end
+
+  
 end
