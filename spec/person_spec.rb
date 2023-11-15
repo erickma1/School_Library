@@ -1,6 +1,5 @@
 require_relative '../person'
 
-# Describe the Person class and its methods
 RSpec.describe Person do
   let(:person) { Person.new(25, parent_permission: true, name: 'John Doe') }
   let(:book) { instance_double('Book') }
@@ -14,6 +13,13 @@ RSpec.describe Person do
       expect(person.name).to eql('John Doe')
       expect(person.age).to eql(25)
       expect(person.parent_permission).to be true
+      expect(person.rentals).to be_an_instance_of(Array)
+      expect(person.rentals).to be_empty
+    end
+
+    it 'should default to "Unknown" for name if not provided' do
+      default_person = Person.new(30)
+      expect(default_person.name).to eql('Unknown')
     end
   end
 
@@ -46,6 +52,4 @@ RSpec.describe Person do
       expect(person.correct_name).to eql('John Doe')
     end
   end
-
-  # Add more test cases as needed for other methods and behaviors
 end
