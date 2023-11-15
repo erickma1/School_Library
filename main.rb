@@ -49,6 +49,42 @@ def main
   end
 end
 
+def load_book_data
+  all_book = []
+  if File.exist?('data/books.json') && !File.empty?('data/books.json')
+    book_data = JSON.parse(File.read('data/books.json'))
+    book_data.each { |b| all_book.push(Book.new(b['title'], b['author'])) }
+  end
+  all_book
+end
 
+def load_person_data
+  all_persons = []
+
+  if File.exist?('data/persons.json') && !File.empty?('data/persons.json')
+    all_persons_data = JSON.parse(File.read('data/persons.json'))
+
+    all_persons = all_persons_data.map do |person_data|
+      if person_data['type'] == 'Student'
+        Student.new(person_data['age'], parent_permission: person_data['parent_permission'], name: person_data['name'])
+      else
+        Teacher.new(person_data['age'], person_data['specialization'], name: person_data['name'])
+      end
+    end
+  end
+
+  all_persons
+end
+
+def load_rental_data(persons, books)
+  all_rentals = []
+  if File.exist?('data/rentals.json') && !File.empty?('data/rentals.json')
+    all_rentals_data = JSON.parse(File.read('data/rentals.json'))
+    all_rentals_data.each do |r|
+      all_rentals.push(Rental.new(r['date'], persons[r['person_index']], books[r['book_index']]))
+    end
+  end
+  all_rentals
+end
 
 main
