@@ -1,7 +1,4 @@
-# trimmerdecorator_spec.rb
-
 require_relative '../trimmerdecorator'
-require_relative '../nameable'
 
 describe TrimmerDecorator do
   let(:nameable) { instance_double('Nameable', correct_name: 'Jonathanuous') }
