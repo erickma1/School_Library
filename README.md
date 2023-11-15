@@ -48,6 +48,7 @@
 - **[Add a basic-UI ]**
 - **[Create a app.rb file that will serve as console app entry-point]**
 - **[Create Main.rb file which act as an entry point for the app]**
+- **[Preserve Data]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -105,10 +106,6 @@ git https://github.com/erickma1/School_Library.git
 
 ## 🔭 Future Features <a name="future-features"></a>
  
- [] Use of Decoder design pattern
- [] Set up Association
- [] Add Basic UI
- [] Preserve data
  [] Unit testing
 
 
