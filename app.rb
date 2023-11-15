@@ -140,5 +140,44 @@ class App
     $stdout.flush
   end
 
-  
+  def store_books
+    data = @books.map do |book|
+      { title: book.title, author: book.author, rentals: book.rentals }
+    end
+    file = File.open('data/books.json', 'w')
+    file.puts(data.to_json)
+    file.close
+  end
+
+  def store_persons
+    data = @persons.map do |person|
+      if person.instance_of? Student
+        { name: person.name, age: person.age, type: 'Student', parent_permission: person.parent_permission }
+      else
+        { name: person.name, age: person.age, type: 'Teacher', specialization: person.specialization }
+      end
+    end
+    file = File.open('data/persons.json', 'w')
+    file.puts(data.to_json)
+    file.close
+  end
+
+  def store_rental
+    data = @rentals.map do |rental|
+      {
+        date: rental.date,
+        person_index: @persons.find_index(rental.person),
+        book_index: @books.find_index(rental.book)
+      }
+    end
+    file = File.open('data/rentals.json', 'w')
+    file.puts(data.to_json)
+    file.close
+  end
+
+  def store_data
+    store_books
+    store_persons
+    store_rental
+  end
 end
